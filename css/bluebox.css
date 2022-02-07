@@ -1,0 +1,234 @@
+/* Blueware text version 1.0.0 
+from: blueware.inc
+developers: < Allandala & TimoTeewo/>
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ text-align: center;
+}
+logo{
+ font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+}
+/* color */
+
+.red {
+ color: red;
+}
+
+.green {
+ color: green;
+}
+
+.white {
+ color: #eee;
+}
+
+.blue {
+ color: blue;
+}
+
+.purple {
+ color: purple;
+}
+
+.brown {
+ color: brown;
+}
+.yellow{
+ color: yellow;
+}
+.pink{
+ color: pink;
+}
+.cyan{
+ color: cyan;
+}
+.grey{
+ color: grey;
+}
+.light-blue{
+ color: lightblue;
+}
+.light-coral{
+ color: lightpink;
+}
+.light-pink{
+ color: lightgrey;
+}
+.light-green{
+ color: lightgreen;
+}
+/* background color */
+.bk-blue{
+ background-color: blue;
+}
+.bk-red {
+ background-color: red;
+}
+.bk-yellow {
+ background-color: yellow;
+}
+.bk-pink{
+ background-color: pink;
+}
+.bk-brown {
+ background-color: brown;
+}
+.bk-green {
+ background-color: green;
+}
+.bk-purple {
+ background-color: purple;
+}
+.bk-light-blue{
+ background-color: lightblue;
+}
+.bk-light-coral{
+ background-color: lightcoral;
+}
+.bk-light-green{
+ background-color: lightgreen;
+}
+.bk-light-cyan{
+ background-color: lightcyan;
+}
+
+
+/* text stroke */
+.outline {
+ -webkit-text-stroke: 1px blue;
+ color: #fff;
+}
+/* font weight */
+.bold {
+ font-weight: bold;
+}
+.light {
+ font-weight: 100;
+}
+/* shadow */
+.shadow {
+ text-shadow: blue 2px 0px 2px;
+}
+/* text decoration */
+.underline {
+ text-decoration: underline;
+}
+.line-through {
+ text-decoration: line-through blue;
+}
+.over-line{
+  text-decoration: overline blue;
+ 
+}
+li {
+ list-style: none;
+ text-align: center;
+}
+/* font size */
+.size-10 {
+ font-size: 10px;
+}
+
+.size-20 {
+ font-size: 20px;
+}
+
+.size-30 {
+ font-size: 30px;
+}
+
+.size-40 {
+font-size: 40px;
+}
+
+.size-50 {
+ font-size: 50px; 
+}
+
+.size-60 {
+ font-size: 60px;
+}
+/* border */
+.border-1-dashed{
+ border: 1px dashed blue;
+}
+.border-2-dashed {
+ border: 2px dashed blue;
+}
+.border-3-dashed {
+ border: 3px dashed blue;
+}
+.border-4-dashed {
+ border: 4px dashed blue;
+}
+.border-5-dashed {
+ border: 5px dashed blue;
+}
+.border-6-dashed {
+ border: 6px dashed blue;
+}
+.border-1-solid{
+ border: 1px solid blue;
+}
+.border-2-solid{
+ border: 2px solid blue;
+}
+.border-3-solid{
+ border: 3px solid blue;
+}
+.border-4-solid{
+ border: 4px solid blue;
+}
+.border-5-solid{
+ border: 5px solid blue;
+}
+.border-6-solid{
+ border: 6px solid blue;
+}
+/* align text */
+.left{
+ text-align: left;
+}
+.right{
+ text-align: right;
+}
+.center{
+ text-align: center;
+}
+/* transform */
+.uppercase{
+ text-transform: uppercase;
+}
+.capitalize{
+ text-transform: capitalize;
+}
+.space-4{
+ letter-spacing: 4px;
+}
+.space-7{
+ letter-spacing: 7px;
+}
+.space-10{
+ letter-spacing: 10px;
+}
+.space-13{
+ letter-spacing: 13px;
+}
+/* nav text */
+nav a{
+ padding: 3px 8px 3px 8px;
+ text-decoration: none;
+ transition: 0.5s;
+}
+nav a:hover{
+ color: blue;
+ font-size: 20px;
+ border-bottom: 2px solid blue;
+}
